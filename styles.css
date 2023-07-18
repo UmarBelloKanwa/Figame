@@ -1,0 +1,139 @@
+* {padding:0em;
+   color:white;
+   text-align:center;
+   box-sizing:border-box;}
+body {background:rgba(255, 99, 71, 0.5)
+     url("backgr.gif") 
+     no-repeat
+     top center;
+     background-attachment:fixed;
+     background-size:100% 100%;}
+#figame-header {top:0%;
+        position:sticky;
+        right:50%;}
+circle {cx:50%;
+        cy:31;
+        r:29;
+        fill:orange;
+        z-index:-1;}
+span.head {text-align:center;
+      position:absolute;
+      top:5%;
+      right:50%;
+      font-family:serif;
+      color:white;
+      font-weight:normal;
+      font-size:25px;
+      font-style:oblique;
+      font-variant:normal;
+      letter-spacing:-5px;
+      text-shadow:3px 0px 9px white;}
+#figame-section {color:white;
+         padding:3%;
+         text-align:center;}
+#figame-h3 {border-width:11%;
+    border-radius:15%;
+    background:orange;
+    font-family:Arial,sans-serif;
+    font-weight:normal;
+    text-decoration:underline 
+    white wavy;
+    font-size:31px;
+    font-variant:normal;
+    letter-spacing:11%;
+    text-shadow:3px 0px 9px white;}
+p,#figame-article,.div1,#dve {font-family:serif;
+    font-weight:normal;
+    font-size:15px;
+    margin:0em;
+    font-style:oblique;
+    font-variant:normal;
+    letter-spacing:1px;
+    background:rgba(255, 99, 71, 0.5);
+    text-shadow:3px 1px 5px white;}
+#car {max-width:100%;
+      max-height:100%;
+      border-radius:11%;}
+#figame-mark,cite,caption {color:white;
+      margin-top:0em;
+      background:orange;
+      border-radius:7%;}  
+#tab1t {margin:auto;
+       max-width:100%;
+       border-radius:7%;
+       border-left:3px solid white;
+       border-right:3px solid white;}
+code {font-size:2em;
+      font-style:normal;
+      font-variant:normal;
+      font-weight:bolder;}
+#ct {text-shadow:1px 0px white;}
+#carta {line-height:0%;
+       background:white;
+       border:3px inset white;
+       border-radius:9%;}
+#cartb {line-height:0px;
+        border:hidden;
+        border-collapse:collapse;}
+img{max-height:100%;
+    max-width:100%;}
+#lasd {border:5px outset white;
+       border-radius:9%;
+       width:auto;
+       height:67vw;
+       background:orange;}
+#car-one,#car-two,#car-three,#car-four,
+#car-five,#car-six,#car-seven,#car-eight,
+#car-nine,#car-ten,#car-eleven,#car-twelve,
+#car-thirteen,#car-fourteen,#car-fiveteen,
+#car-sixteen {border:3px inset white;}
+
+#part-one,#part-two,#part-three,
+#part-four,#part-five,#part-six,
+#part-seven,#part-eight,#part-nine,
+#part-ten,#part-eleven,#part-twelve,
+#part-thirteen,#part-fourteen,#part-fiveteen,
+#part-sixteen {display:none;
+               text-align:left;
+               max-height:75px;
+               max-width:75px;}
+mark.res {font-family:serif;
+          color:white;
+          background:rgba(255, 99, 71, 0.5);
+          font-weight:normal;
+          font-size:7vw;
+          font-style:oblique;
+          font-variant:normal;
+          text-shadow:3px 0px 9px white;}
+.newbot,#figameact {float:right;
+         position:sticky;
+         bottom:31%;
+         font-size:5vw;
+         display:inline-block;
+         background:black;
+         color:white;
+         border:3px solid black;
+         border-radius:5px;
+         text-shadow:3px 5px 5px white;}
+#figameact {float:left;}
+footer {bottom:0px;
+        position:sticky;
+        background:white
+        url("footer.gif") 
+        no-repeat
+        top center;
+        background-size:100% 100%;
+        color:rgb(255,255,255);
+        margin-top:19%;
+        height:93px;
+        font-size:5vw;
+        border:1px solid white;
+        border-radius:11px;
+        text-shadow:3px 5px 5px white;}
+#about {border:3px solid orange;
+        border-radius:5px;
+        background:orange;}
+        /*Newbot*/
+#newbot-body,#newbot-article,#figameact {display:none;}
+      
+      

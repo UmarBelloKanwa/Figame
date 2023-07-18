@@ -1,0 +1,156 @@
+* {box-sizing:border-box;}
+#newbot-body {background:black;
+/*    opacity:0.7;    */
+      margin-top:13%;
+      border-radius:7%;
+      overflow:auto;
+      box-sizing:border-box;
+      text-shadow:3px 5px 5px orange;}
+#newbot-header {font-family:Arial,sans-serif;
+        text-align:center;
+        margin:0%;
+        font-size:5vw;
+        font-weight:lighter;
+        font-variant:normal;
+        font-style:normal;}
+object {width:30%;
+        height:30%;
+        margin-top:1%;
+        border-radius:15%;
+        z-index:-1;}
+#active {color:green;
+         background:green;
+         width:7vw;
+         height:7vw;
+         border-radius:20vw;
+         position:absolute;
+         top:31vw;
+         left:59vw;}
+         
+section {}        
+         
+#newbot,#user  {background:orange;
+    font-size:7vw;
+    font-weight:bolder;
+    padding:1%;
+    color:white;
+    border-radius:7%;
+    margin-top:0em;
+    margin-left:0.1em;
+    margin-bottom:0.3em;
+    text-shadow:3px 5px 5px red;
+    display:inline;} 
+#newbot {float:right;
+         margin:0px 1% 0px 0px;}
+/* Newbots speak, display none in CSS */
+#newbot-speak,#newbot-speak-wel,
+#newbot-speak-youen,#newbot-speak-thank,
+#newbot-speak-yeslook {clear:both;
+                      float:right;
+                      font-size:5vw;
+                      background:rgb(255, 255, 191);
+                      color:tomato;
+                      border-radius:3vw;
+                      display:none;
+                      margin:3% 1% 3% 1%;
+                      padding:1%;
+                      word-spacing:-5px;
+                      letter-spacing:-1%;
+                      font-family:Courier new,monospace;
+                      width:61%;}
+#newbot-speak-wel {display:inline;}
+#user {float:left;
+       color:blue;
+       clear:both;}
+/* User's speak, display none in CSS */     
+#user-speak,#user-speak-imfin,
+#user-speak-yeshave,#user-speak-canyou
+{clear:both;
+float:left;
+margin-left:1%;
+padding:1%;
+width:61%;    
+display:none;       
+font-size:5vw;
+letter-spacing:-1%;
+word-spacing:-5px;
+border-radius:3vw;
+background:rgb(0, 232, 255);
+color:blue;
+font-family:Courier new,monospace;}
+#newbot-article {top:auto;
+                 left:auto;
+                 bottom:auto;
+                 position:sticky;}
+input[type=text], #submit {
+          width:87%;
+          font-size:4.5vw;
+          height:100%;
+          color:blue;
+          text-align:left;
+          padding:3%;
+          word-spacing:-5px;
+          letter-spacing:-1%;
+          font-family:Courier new,monospace;
+          background:white;
+          border:0.3em solid orange;
+          border-bottom-left-radius:1em;
+          border-top-left-radius:1em;
+          text-shadow:3px 5px 5px white;}
+          
+/* Inputs of user's speak reply, display none in CSS */
+form.enjoyed, .moreaboutmyactivities{display:none;
+                                     margin-top:5vw;}
+
+#submit {display:inline;
+         width:11vw;
+         color:white;
+         border-bottom-right-radius:25em;
+         border-top-right-radius:25em;
+         background:orange;} 
+#details{
+font-family:Arial,sans-serif;}
+ul,ol,li,#date {color:tomato;
+   list-style-type:none;
+   text-align:left;
+   display:table;
+   word-spacing:normal;
+   padding:0px;
+   margin:0px;}
+#textcar1,#textcar5,#textcar9,#textcar13,
+#textcar2,#textcar6,#textcar10,#textcar14,
+#textcar3,#textcar7,#textcar11,#textcar15,
+#textcar4,#textcar8,#textcar12,#textcar16,
+#deletedcar1,#deletedcar5,#deletedcar9,#deletedcar13,
+#deletedcar2,#deletedcar6,#deletedcar10,#deletedcar14,
+#deletedcar3,#deletedcar7,#deletedcar11,#deletedcar15,
+#deletedcar4,#deletedcar8,#deletedcar12,#deletedcar16
+{color:tomato;
+word-spacing:normal;}
+#clickcar1,#clickcar5,#clickcar9,#clickcar13,
+#clickcar2,#clickcar6,#clickcar10,#clickcar14,
+#clickcar3,#clickcar7,#clickcar11,#clickcar15,
+#clickcar4,#clickcar8,#clickcar12,#clickcar16
+ {width:15vw;
+  height:15vw;
+  float:right;
+  clear:both;
+  display:none;}
+  
+#piccar1,#piccar5,#piccar9,#piccar13,
+#piccar2,#piccar6,#piccar10,#piccar14,
+#piccar3,#piccar7,#piccar11,#piccar15,
+#piccar4,#piccar8,#piccar12,#piccar16
+{width:15vw;
+ height:15vw;
+ float:left;
+ clear:both;
+ display:none;}
+ 
+#noplay,#time,#details,#notplay,#still
+{color:tomato;
+text-align:left;
+display:inline;
+word-spacing:normal;
+float:left;
+clear:both;}
