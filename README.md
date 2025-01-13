@@ -1,4 +1,4 @@
-# Matrix Game: Image Puzzle
+# Matrix Car Game: Image Puzzle
 
 This is an image puzzle game created in pure JavaScript. The game features a split matrix where the player has to fill in the right images in the grid. The game also includes a built-in chatbot that narrates the player's actions and provides hints and feedback. It was created at the beginning of my JavaScript journey as a fun way to practice and learn JavaScript.
 
@@ -28,7 +28,7 @@ This is an image puzzle game created in pure JavaScript. The game features a spl
 1. Open the game in your browser.
 2. The game will show a split car image as matrix where some sections are empty.
 3. Your task correct images into the empty sections of the matrix.
-4. The chatbot will narrate your progress and provide the time you came and the current time you are in.
+4. The chatbot will narrate your progress like the images you clicked and provide the time you came and the current time you are in.
 5. Complete the puzzle by filling all the sections with the right images in the correct order.
 
 ## Technologies Used
