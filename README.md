@@ -1,5 +1,7 @@
 # Matrix Car Game: Image Puzzle
 
+https://umarbellokanwa.github.io/Figame/figame.html (mobile view)
+
 This is an image puzzle game created in pure JavaScript. The game features a split matrix where the player has to fill in the right images in the grid. The game also includes a built-in chatbot that narrates the player's actions and provides hints and feedback. It was created at the beginning of my JavaScript journey as a fun way to practice and learn JavaScript.
 
 ## Features
